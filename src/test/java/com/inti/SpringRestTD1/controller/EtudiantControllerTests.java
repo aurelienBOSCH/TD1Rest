@@ -7,9 +7,13 @@ import com.inti.SpringRestTD1.repository.EcoleRepository;
 import com.inti.SpringRestTD1.repository.EtudiantRepository;
 import com.inti.SpringRestTD1.repository.ProfesseurRepository;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+import java.util.List;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,5 +75,39 @@ public class EtudiantControllerTests
 		{
 			e.printStackTrace();
 		}
+	}
+	
+	@Test
+	public void testAffichageAllStudentsInVersailles()
+	{
+		try
+		{
+			mockMvc.perform(get("/listeEtudiantVille/Versailles"))
+			.andExpect(status().isOk());
+
+		}
+		
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+		
+	}
+	
+	@Test
+	public void testAffichageAllStudentsInHoche()
+	{
+		try
+		{
+			mockMvc.perform(get("/listeEtudiantEcole/1"))
+			.andExpect(status().isOk());
+
+		}
+		
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+		
 	}
 }
