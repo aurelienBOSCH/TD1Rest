@@ -81,4 +81,15 @@ public class EtudiantRepositoryTests
 		assertThat(listeEtudiants).isNotEmpty();
 		assertThat(listeEtudiants).hasSize((int) etudiantRepository.count());
 	}
+	
+	@Test
+	public void testGetAllStudentsInCity()
+	{
+		//When
+		List<Etudiant> listeEtudiants = etudiantRepository.findAllStudentsInCity("Versailles");
+		//Then
+		assertThat(listeEtudiants).isNotEmpty();
+		assertThat(listeEtudiants).hasSize((int) etudiantRepository.count());
+		assertThat(listeEtudiants.get(0).getEcole().getVille()).isEqualTo("Versailles");
+	}
 }
