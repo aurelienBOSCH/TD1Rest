@@ -16,7 +16,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 @AutoConfigureTestDatabase(replace = Replace.NONE) // pour préciser qu'on va utiliser hibernate et non pas la bdd intégrée
 @DataJpaTest
-public class EcoleRepositoryTests2
+public class EcoleRepositoryTests
 {
 	@Autowired
 	EcoleRepository ecoleRepository;
