@@ -15,6 +15,8 @@ public interface EtudiantRepository extends JpaRepository<Etudiant, Integer>
 	@Query(value="Select * from etudiant where id_ecole=:id_ecole", nativeQuery = true)
 	List<Etudiant> findAllStudentsInSchool(@Param("id_ecole") int id_ecole);
 	
+	//EQUIVALENT A 
+	// "select * from etudiant where id_ecole in (select id from ecole where ville=:ville)"
 	@Query(value="Select * from etudiant etu, ecole eco  where eco.id=etu.id_ecole and eco.ville=:ville", nativeQuery = true)
 	List<Etudiant> findAllStudentsInCity (@Param("ville") String ville);
 }
