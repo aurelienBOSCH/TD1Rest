@@ -51,11 +51,21 @@ public class Ecole
 	private List<Etudiant> listeEtudiants;
 
 
+	public Ecole(@NonNull String nom, int cp, String ville)
+	{
+		super();
+		this.nom = nom;
+		this.cp = cp;
+		this.ville = ville;
+	}
+
+
 //	@Override
 //	public String toString()
 //	{
 //		return "Ecole [id=" + id + ", nom=" + nom + ", adresse=" + adresse + ", cp=" + cp + ", ville=" + ville + "]";
 //	}
+	
 	
 	
 	
