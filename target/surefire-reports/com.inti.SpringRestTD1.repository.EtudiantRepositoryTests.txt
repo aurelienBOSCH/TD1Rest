@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.inti.SpringRestTD1.repository.EtudiantRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.334 s - in com.inti.SpringRestTD1.repository.EtudiantRepositoryTests

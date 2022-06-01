@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.inti.SpringRestTD1.controller.EtudiantControllerTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.424 s <<< FAILURE! - in com.inti.SpringRestTD1.controller.EtudiantControllerTests
+testSaveStudent  Time elapsed: 0.093 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<201>
+	at com.inti.SpringRestTD1.controller.EtudiantControllerTests.testSaveStudent(EtudiantControllerTests.java:63)
+
