@@ -28,10 +28,10 @@ public class EtudiantControllerTests
 	private EtudiantRepository etudiantRepository;
 	
 	@MockBean
-	ProfesseurRepository professeurRepository;
+	private ProfesseurRepository professeurRepository;
 	
 	@MockBean
-	EcoleRepository ecoleRepository;
+	private EcoleRepository ecoleRepository;
 
 	@Test
 	@DisplayName("Test affichage de tous les étudiants")
@@ -60,7 +60,7 @@ public class EtudiantControllerTests
 			mockMvc.perform(post("/saveEtudiant")
 			.contentType(MediaType.APPLICATION_JSON)
 			.content(Json.fromObject(new Etudiant("Zidane", "Zinedine", "zizou@gmail.com", 5))))
-			.andExpect(status().isConflict());
+			.andExpect(status().isCreated());
 		} 
 		catch (JsonProcessingException e) // pour avoir un détail supplémentaire si on catche cette exception là
 		{
