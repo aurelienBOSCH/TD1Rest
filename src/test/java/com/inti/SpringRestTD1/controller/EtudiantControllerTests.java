@@ -60,7 +60,7 @@ public class EtudiantControllerTests
 			mockMvc.perform(post("/saveEtudiant")
 			.contentType(MediaType.APPLICATION_JSON)
 			.content(Json.fromObject(new Etudiant("Zidane", "Zinedine", "zizou@gmail.com", 5))))
-			.andExpect(status().isCreated());
+			.andExpect(status().isCreated()); //conflict pour s'assurer qu'une erreur sera faites, OK pour le cas général ou c'est vérifié
 		} 
 		catch (JsonProcessingException e) // pour avoir un détail supplémentaire si on catche cette exception là
 		{
