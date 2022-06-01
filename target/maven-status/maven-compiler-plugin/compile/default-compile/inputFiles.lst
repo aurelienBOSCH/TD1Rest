@@ -1,10 +1,10 @@
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\model\Ecole.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\model\Etudiant.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\controller\ProfesseurController.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\repository\ProfesseurRepository.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\model\Professeur.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\repository\EtudiantRepository.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\controller\EtudiantController.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\SpringRestTd1Application.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\controller\EcoleController.java
-D:\Cours INTI\SpringRestTD1\src\main\java\com\inti\SpringRestTD1\repository\EcoleRepository.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\controller\ProfesseurController.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\model\Etudiant.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\repository\ProfesseurRepository.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\controller\EcoleController.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\model\Professeur.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\repository\EcoleRepository.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\controller\EtudiantController.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\model\Ecole.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\SpringRestTd1Application.java
+C:\Users\BOSCHI\git\TD1Rest\src\main\java\com\inti\SpringRestTD1\repository\EtudiantRepository.java
